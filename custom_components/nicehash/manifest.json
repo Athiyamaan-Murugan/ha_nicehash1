@@ -1,6 +1,6 @@
 {
     "domain": "nicehash",
-    "name": "NiceHash",
+    "name": "NiceHash1",
     "documentation": "https://github.com/RomRider/ha_nicehash",
     "dependencies": [],
     "codeowners": ["@RomRider"],

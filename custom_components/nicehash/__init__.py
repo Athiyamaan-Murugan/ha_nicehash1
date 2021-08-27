@@ -9,8 +9,8 @@ from homeassistant.helpers.typing import HomeAssistantType
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 
-from custom_components.nicehash.nicehash import NiceHashPrivateAPI
-from custom_components.nicehash.const import (
+from custom_components.nicehash1.nicehash1 import NiceHashPrivateAPI
+from custom_components.nicehash1.const import (
     API,
     CONFIG_FIAT,
     CONFIG_KEY,
@@ -24,7 +24,7 @@ from custom_components.nicehash.const import (
     SENSOR_DATA_COORDINATOR,
     UNSUB,
 )
-from custom_components.nicehash.common import NiceHashSensorDataUpdateCoordinator
+from custom_components.nicehash1.common import NiceHashSensorDataUpdateCoordinator
 
 _LOGGER = logging.getLogger(__name__)
 

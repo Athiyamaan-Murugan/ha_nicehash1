@@ -4,7 +4,7 @@ from homeassistant import config_entries
 from homeassistant.core import callback
 import voluptuous as vol
 from voluptuous.validators import All, Range
-from custom_components.nicehash.const import (
+from custom_components.nicehash1.const import (
     CONFIG_ENTRY_VERSION,
     CONFIG_FIAT,
     CONFIG_KEY,
@@ -16,7 +16,7 @@ from custom_components.nicehash.const import (
     DOMAIN,
     NICEHASH_API_ENDPOINT,
 )
-from custom_components.nicehash.nicehash import NiceHashPrivateAPI
+from custom_components.nicehash1.nicehash1 import NiceHashPrivateAPI
 
 _LOGGER = logging.getLogger(__name__)
 

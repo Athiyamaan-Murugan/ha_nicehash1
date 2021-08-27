@@ -7,8 +7,8 @@ import async_timeout
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
-from custom_components.nicehash.nicehash import NiceHashPrivateAPI
-from custom_components.nicehash.const import (
+from custom_components.nicehash1.nicehash1 import NiceHashPrivateAPI
+from custom_components.nicehash1.const import (
     ACCOUNT_OBJ,
     DOMAIN,
     RIGS_OBJ,
