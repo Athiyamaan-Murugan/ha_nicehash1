@@ -1,5 +1,5 @@
 {
-  "name": "NiceHash",
+  "name": "NiceHash1",
   "domains": ["sensor"],
   "iot_class": "Cloud Polling",
   "render_readme": true,
