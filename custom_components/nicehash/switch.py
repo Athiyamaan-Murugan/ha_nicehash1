@@ -12,9 +12,9 @@ from homeassistant.helpers.update_coordinator import (
 )
 from homeassistant.helpers.typing import HomeAssistantType
 
-from custom_components.nicehash.nicehash import NiceHashPrivateAPI
-from custom_components.nicehash.common import NiceHashSensorDataUpdateCoordinator
-from custom_components.nicehash.const import (
+from custom_components.nicehash1.nicehash1 import NiceHashPrivateAPI
+from custom_components.nicehash1.common import NiceHashSensorDataUpdateCoordinator
+from custom_components.nicehash1.const import (
     API,
     DOMAIN,
     RIGS_OBJ,
