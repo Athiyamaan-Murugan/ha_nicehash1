@@ -12,8 +12,8 @@ from homeassistant.helpers.update_coordinator import (
 )
 from homeassistant.helpers.typing import HomeAssistantType
 
-from custom_components.nicehash.common import NiceHashSensorDataUpdateCoordinator
-from custom_components.nicehash.const import (
+from custom_components.nicehash1.common import NiceHashSensorDataUpdateCoordinator
+from custom_components.nicehash1.const import (
     ACCOUNT_OBJ,
     ALGOS_UNITS,
     DOMAIN,
